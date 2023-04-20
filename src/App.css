@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  color: white;
+  background-color: #192a56;
+  padding: 5px;
+  text-align: center;
+}
+
+.input {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.data {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: "Courier New";
+  text-align: justify;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+}
+
+.data h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.data p {
+  margin: 0;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.data-row p:first-child {
+  margin-right: 5px;
+  width: auto;
+  text-align: left;
+}
+
+.data-row p:last-child {
+  margin-left: auto;
+  width: auto;
+  text-align: right;
+}
+
+.p.no-data {
+  text-align: center;
+  color: aquamarine;
+  font-family: "Comic Sans MS" cursive;
+  margin: 0 auto;
+}
