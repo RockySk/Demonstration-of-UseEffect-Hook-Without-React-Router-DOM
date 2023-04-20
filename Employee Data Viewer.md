@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+# Employee Data Viewer
+This is a React application that connects to a dummy API and fetches employee data based on the number of records selected by the user. It uses the useEffect hook to fetch data from the API when the component mounts and updates based on changes to the number of records selected by the user.
+
+## Features
+Fetches data from a dummy API
+Displays employee data in a grid format
+Allows users to select the number of records to display
+Allows users to clear the input field
+Allows users to toggle between showing all the data and showing a limited number of records
+
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,6 +79,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request if you have any improvements or bug fixes.
 
 Screenshot of the Project:
 Before Clicking Show Less Button.
